@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #442f70;
+  }
+  
+  .popup-container {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #7158b1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    border-radius: 10px;
+  }
+  
+  .logo-container {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  .pw-logo {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 2px solid #C5B4E3;
+    transition: transform 0.3s ease;
+  }
+  
+  .pw-logo:hover {
+    transform: scale(1.1);
+  }
+  
+  .divider {
+    border: 1px solid #C5B4E3;
+    margin: 20px 0;
+  }
+  
+  .links-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+  }
+  
+  .links-list li {
+    margin-bottom: 10px;
+  }
+  
+  .links-list a {
+    text-decoration: none;
+    color: #C5B4E3;
+    font-weight: bold;
+    font-size: 14px;
+    transition: color 0.3s ease;
+  }
+  
+  .links-list a:hover {
+    color: #A286CE;
+  }
+  
+  .list-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  
+  #result-container {
+    margin-top: 20px;
+    color: #C5B4E3;
+    font-weight: bold;
+    opacity: 1;
+    transition: opacity 0.5s ease;
+  }
+  
